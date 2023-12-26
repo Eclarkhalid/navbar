@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './App.css'
 import Header from './components/Header.jsx'
+import About from './pages/About'
 import {
   createBrowserRouter,
   Outlet,
   RouterProvider,
 } from "react-router-dom";
-import About from './About.js'
+
 
 const Layout = () => {
   return <>
