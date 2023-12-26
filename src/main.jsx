@@ -8,6 +8,7 @@ import {
   Outlet,
   RouterProvider,
 } from "react-router-dom";
+import About from './About.js'
 
 const Layout = () => {
   return <>
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <App />
+      },
+      {
+        path: '/',
+        element: <About />
       }
     ]
   },

@@ -37,7 +37,7 @@ const Header = () => {
               <a href="/" className={location.pathname === '/' ? active : inActive}>Home</a>
             </li>
             <li>
-              <a href="/" className={location.pathname === '/page' ? active : inActive}>About</a>
+              <a href="/about" className={location.pathname === '/about' ? active : inActive}>About</a>
             </li>
             <li>
               <a href="/" className={location.pathname === '/page' ? active : inActive}>Services</a>
